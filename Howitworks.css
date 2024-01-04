@@ -1,0 +1,330 @@
+.howitworks{
+    background-color: black;
+}
+.t1{
+    color:rgb(200, 210, 10);
+    padding: 20px;
+    margin:  0px 40px;
+    text-align: justify;  
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.c1{
+    color:rgb(156, 152, 152);
+    margin:  0px 55px;
+    text-align:left;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+/*.t2{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-bottom: 30px;
+}
+
+.topic{
+    color:rgb(200, 210, 10);
+    margin:  0px 55px;
+    text-align: justify;
+    padding-bottom: 10px;
+   
+}
+.c2{
+    color:rgb(156, 152, 152);
+    margin:  0px 55px;
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 30px;
+}*/
+.pic1{
+    height: 600px;
+    width:1500px;
+}
+
+.pt{
+    position:absolute;
+    color:white;
+    transform:translate(-50%,-50%);
+    font-size: 80px;
+    right: -150px;
+    top:55%;
+    text-align: center;
+    
+}
+.pc{
+    position:absolute;
+    color:white;
+    transform:translate(-50%,-50%);
+    right: -100px;
+    font-size: 35px;
+    top:74%;
+    text-align:right;
+}
+
+/*-----------------box---------------*/
+
+.box{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;    
+
+}
+.box-container1{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    
+    box-shadow: 2px 0px 50px -1px;
+}
+.box-container1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    color:rgb(200, 210, 10);
+}
+.box-title1{
+    text-align: center;
+    color:rgb(200, 210, 10);
+}
+.box-body1{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+
+.logo-container1{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:white;
+    
+}
+
+/* card2 */
+
+.box-container2{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    
+    box-shadow: 2px 0px 50px -1px;
+}
+.box-container2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    color:rgb(200, 210, 10);
+}
+
+.box-title2{
+    text-align: center;
+    color:rgb(200, 210, 10);
+}
+.box-body2{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+
+.logo-container2{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:white;
+    
+}
+
+/* card3 */
+
+.box-container3{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    
+    box-shadow: 2px 0px 50px -1px;
+}
+.box-container3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    color:rgb(200, 210, 10);
+}
+
+.box-title3{
+    text-align: center;
+    color:rgb(200, 210, 10);
+}
+.box-body3{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+
+.logo-container3{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:white;
+    
+}
+
+
+
+/* card4 */
+
+.box-container4{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    
+    box-shadow: 2px 0px 50px -1px;
+}
+.box-container4:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    color:rgb(200, 210, 10);
+
+}
+.box-title4{
+    text-align: center;
+    color:rgb(200, 210, 10);
+}
+.box-body4{
+    text-align: center;
+    color: rgb(156, 152, 152);
+}
+.logo-container4{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:white;
+    
+}
+
+
+/*-------boxes---------*/
+
+
+
+.boxes{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;  
+    padding-left:180px ; 
+    padding-right: 180px; 
+
+}
+.b1{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 0px 0px 20px -1px;
+    color:rgb(200, 210, 10);
+}
+.b1:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 15px 0px;
+    
+}
+.b-title1{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-bottom: 20px;
+
+}
+.b-body1{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+
+.i1{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+/* b2 */
+
+.b2{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 0px 0px 20px -1px;
+    color:rgb(200, 210, 10);
+
+}
+.b2:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.b-title2{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-bottom: 20px;
+}
+.b-body2{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+
+.i2{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+/* b3 */
+
+.b3{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 0px 0px 20px -1px;
+    color:rgb(200, 210, 10);
+
+}
+.b3:hover{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.b-title3{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-bottom: 20px;
+}
+.b-body3{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+
+.i3{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:white;
+    padding-bottom: 20px;
+    
+}
+
+.boxes-heading{
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

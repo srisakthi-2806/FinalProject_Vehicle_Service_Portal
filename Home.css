@@ -1,0 +1,624 @@
+.carousel{
+  padding-top:20px;  
+  background-color: rgb(0, 0, 0); 
+  padding-bottom: 20px;
+}
+
+.carousel_items{
+    display: flex;
+    animation: carousel 4% linear infinite;
+    
+}
+.carousel_items .text{
+    position:absolute;
+    color:rgb(236, 236, 236);
+    text-align: left;
+    right: -100px;
+    top:40%;
+    font-size: 20px;
+    font-weight:bold;
+    transform: translate(-50%, -50%);
+}
+
+.carousel_items .words{
+    position:absolute;
+    color:rgb(154, 154, 154);
+    text-align: left;
+    right: -180px;
+    top:60%;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+}
+.text2{
+    position:absolute;
+    color:white;
+    text-align:center;
+    right: 10px;
+    top:40%;
+    font-size: 20px;
+    font-weight:bold;
+    transform: translate(-50%, -50%);
+}
+.words2{
+    position:absolute;
+    color:aliceblue;
+    text-align: center;
+    right: -500px;
+    top:60%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+/*.carousel .img3{
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+}*/
+.text3{
+    position:absolute;
+    color:rgb(119, 116, 116);
+    text-align:center;
+    right: 600px;
+    top:20%;
+    font-size: 40px;
+    font-weight:bold;
+    transform: translate(-50%, -50%);
+}
+.words3{
+    position:absolute;
+    color:rgb(109, 102, 102);
+    text-align: left;
+    right: 550px;
+    top:45%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+.carousel .img2{
+    filter: blur(5px);
+    -webkit-filter: blur(9px);
+}
+
+
+
+.services{
+    position:fixed;
+    text-align: left;
+    left:0%;
+    color: rgb(255, 255, 255);
+    top:150%;
+    
+    
+}
+
+/*.img{
+    display: block;
+    object-fit: cover;
+}*/
+
+.carousel .slider-wrapper{
+    width:95%;
+    
+}
+
+
+.carousel .thumb{
+    width:5%;
+    height:50px;
+}
+.carousel{
+    text-align: center;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  /*----------centerpart--------*/
+  .centerpart{
+    background-color: black;
+    margin-top: 0%;
+   
+}
+
+.heading{
+    text-align: center;
+    font-size:45px;
+    font-weight: bold;
+    color:rgb(200, 210, 10);
+}
+
+.content{
+    text-align:left;
+    color:rgb(156, 152, 152);
+    padding: 3px;
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 30px;
+    margin: 4px 10px;
+}
+
+/*cards*/
+/* card1*/
+
+
+.cards{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;    
+
+}
+.card-container1{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 50px -1px;
+}
+.card-container1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card-title1{
+    text-align: center;
+    color:rgb(236, 236, 236);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body1{
+    text-align: center;
+    color: rgb(156, 152, 152);
+    padding-bottom: 10px;
+}
+
+.img-container1{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+/* card2 */
+
+.card-container2{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 50px -1px;
+}
+.card-container2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card-title2{
+    text-align: center;
+    color:rgb(236, 236, 236);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body2{
+    text-align: center;
+    color: rgb(156, 152, 152);
+    padding-bottom: 10px;
+
+}
+
+.img-container2{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+/* card3 */
+
+.card-container3{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 50px -1px;
+}
+.card-container3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card-title3{
+    text-align: center;
+    color:rgb(236, 236, 236);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body3{
+    text-align: center;
+    color: rgb(156, 152, 152);
+    padding-bottom: 10px;
+}
+
+.img-container3{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+/* card4 */
+
+.card-container4{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    border-radius: 18px;
+    box-shadow: 2px 0px 50px -1px;
+}
+.card-container4:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card-title4{
+    text-align: center;
+    color:rgb(236, 236, 236);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body4{
+    text-align: center;
+    color: rgb(156, 152, 152);
+    padding-bottom: 10px;
+}
+.img-container4{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+.t2{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.topic{
+    color:rgb(200, 210, 10);
+    margin:  0px 85px;
+    text-align: justify;
+    padding-bottom: 10px;
+   
+}
+.c2{
+    color:rgb(156, 152, 152);
+    margin:  0px 85px;
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+/*------dabba------*/
+.dabba{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;    
+    
+}
+.dabba-heading{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+
+/* dabba1 */
+.dabba1{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 2px 0px 50px -1px;
+}
+.dabba1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    color:rgb(200, 210, 10);
+}
+.dabba-title1{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+.dabba-body1{
+    text-align: center;
+    color:white;
+    padding-bottom: 30px;
+    margin-right: 15px;
+}
+
+.img-1{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+/* dabba2 */
+
+
+.dabba2{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    
+    box-shadow: 2px 0px 50px -1px;
+}
+.dabba2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    color:rgb(200, 210, 10);
+}
+.dabba-title2{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+.dabba-body2{
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.img-2{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+  
+    
+}
+
+/* dabba3 */
+
+.dabba3{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    
+    box-shadow: 2px 0px 50px -1px;
+}
+.dabba3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    color:rgb(200, 210, 10);
+}
+.dabba-title3{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+.dabba-body3{
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.img-3{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+  
+    
+}
+
+/* dabba4 */
+
+.dabba4{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    
+    box-shadow: 2px 0px 50px -1px;
+}
+.dabba4:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    color:rgb(200, 210, 10);
+}
+.dabba-title4{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+.dabba-body4{
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    margin-right: 15px;
+
+}
+.img-4{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+ 
+}
+
+.picture-heading{
+    text-align: center;
+    color:rgb(200, 210, 10);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+.cnct-heading{
+    text-align: center;
+    
+    padding-bottom: 30px;
+    background-color: black;
+    color:rgb(200, 210, 10);
+    font-size: 65px;
+}
+
+/*--------------contact box------------*/
+.cnct-box{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+    
+
+}
+.cnct-1{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 400px;
+    height: 250px;
+    overflow:hidden;
+    box-shadow: 0px 0px 10px -1px;
+}
+
+/*.cnct-1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}*/
+.cnct-title1{
+    text-align: left;
+    color:rgb(236, 236, 236);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.cnct-body1{
+    text-align: left;
+    color: rgb(156, 152, 152);
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+    
+}
+
+.ic-1{
+    overflow: hidden;
+    height: 40px;
+    width: 40px;
+    
+    text-align: left;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+/* card2 */
+
+.cnct-2{
+    padding-left: 20px;
+    width: 500px;
+    height: 250px;
+    padding-top: 20px;
+    overflow:hidden;
+    
+    box-shadow: 0px 0px 10px -1px;
+}
+/*.cnct2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}*/
+.cnct-title2{
+    text-align: left;
+    color:rgb(236, 236, 236);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cnct-body2{
+    text-align: left;
+    color: rgb(156, 152, 152);
+    padding-bottom: 10px;
+    font-size: 20px;
+
+
+}
+
+.ic-2{
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    text-align: left;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+.adv-head{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(200, 210, 10);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.adv-box{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;    
+    padding-left: 130px;
+    padding-right: 130px;
+
+}
+.adv{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    box-shadow: 0px 0px 5px -1px;
+    
+}
+.overlay{
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+
+.adv-con{
+    
+    font-size: 18px;
+    color:white;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.adv-box:hover .overlay{
+    opacity: 1;
+}
+.adv-t{
+    color:rgb(200, 210, 10);
+}
+
+
+.adv-img{
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-around;
+
+    
+}

@@ -1,0 +1,181 @@
+.contact-page{
+    background-color: black;
+}
+
+.txt1{
+    position:absolute;
+    color:white;
+    text-align:right;
+    right: 1000px;
+    top:35%;
+    font-size: 60px;
+    font-weight:bold;
+    transform: translate(-50%, -50%);
+}
+.txt-icon1{
+
+    position:absolute;
+    color:white;
+    text-align:right;
+    right: 1100px;
+    top:55%;
+    font-size: 50px;
+    font-weight:bold;
+    padding-bottom: 40px;
+    transform: translate(-50%, -50%);
+}
+.txt-icon2{
+
+    
+    position:absolute;
+    color:white;
+    text-align:right;
+    right: 1088px;
+    top:67%;
+    font-size: 50px;
+    font-weight:bold;
+    transform: translate(-50%, -50%);
+}
+
+/*-----contact-box--------*/
+
+.contact-box{
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;  
+    padding-top: 30px;  
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+
+}
+.cb-1{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+    
+    
+}
+.cb-title1{
+    text-align: center;
+    padding-bottom: 10px;
+    color:white;
+    
+}
+.cb-body1{
+    text-align: center;
+    font-size: 21px;
+    color: rgb(156, 152, 152);
+    padding-bottom: 10px;
+    
+}
+
+.logo-1{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+/* card2 */
+
+.cb-2{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+   
+    
+}
+
+.cb-title2{
+    text-align: center;
+    color:white;
+    padding-bottom: 10px;
+}
+.cb-body2{
+    text-align: center;
+    color: rgb(156, 152, 152);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.logo-2{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+
+/* card3 */
+
+.cb-3{
+    padding-left: 20px;
+    width: 300px;
+    overflow:hidden;
+  
+  
+}
+
+.cb-title3{
+    text-align: center;
+    color:white;
+    padding-bottom: 10px;
+}
+.cb-body3{
+    text-align: center;
+    color: rgb(156, 152, 152);
+    font-size: 20px;
+}
+
+.logo-3{
+    overflow: hidden;
+  
+    text-align: center;
+    justify-content: space-around;
+    color:rgb(200, 210, 10);
+    
+}
+.logo-size{
+    height: 100px;
+    width: 90px;
+}
+
+.contact-img{
+    height:400px;
+    width:700px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+} 
+.img-t{
+    float: right;
+    width: 50%;
+    height:50%;
+    background-color: black;
+    color:rgb(156, 152, 152);
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 24px;
+    padding-right: 85px;
+
+}
+
+.follow{
+    color: white;
+}
+  .followus{
+        margin-top: 20px;
+        display: grid;
+        padding: 5px;
+        overflow: hidden;
+        color:rgb(200, 210, 10);
+        grid-template-columns: repeat(6, 45px);
+        grid-gap: 1px;
+        cursor: pointer;
+}
